@@ -1,0 +1,41 @@
+{
+  "text": {
+    "show": 11,
+    "me": 6,
+    "content": 3,
+    "on": 7,
+    "introduction": 5,
+    "extract": 4,
+    "section": 10,
+    "about": 1,
+    "applications": 2,
+    "page": 8,
+    "__number__": 0,
+    "pages": 9
+  },
+  "intent": {
+    "search_by_topic": 2,
+    "search_by_page": 1,
+    "ask_section": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 7,
+    "action_restart": 8,
+    "action_session_start": 12,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 13,
+    "action_unlikely_intent": 14,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "action_fetch_section": 6,
+    "action_search_by_page": 10,
+    "action_search_by_topic": 11
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

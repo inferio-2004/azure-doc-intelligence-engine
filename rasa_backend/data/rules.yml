@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+- rule: Handle topic-based extraction
+  steps:
+    - intent: search_by_topic
+    - action: action_search_by_topic_or_page
+
+- rule: Handle page-based extraction
+  steps:
+    - intent: search_by_page
+    - action: action_search_by_topic_or_page
+- rule: User selects a PDF
+  steps:
+    - intent: choose_pdf
+    - slot_was_set:
+        - pdf_name: true
+    - action: utter_pdf_selected

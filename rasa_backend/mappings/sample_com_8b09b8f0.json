@@ -1,0 +1,234 @@
+{
+  "2.1 Explanation Actual situation (03-05-2017): Document version 1.14": [
+    4,
+    5
+  ],
+  "2.2 Way of working of (new concept) scheduler Agaram.": [
+    5,
+    5
+  ],
+  "2.3 Proposal to improve command communication between DA and BluVision": [
+    5,
+    8
+  ],
+  "2.3.1 Explanation ActionStep element:": [
+    8,
+    9
+  ],
+  "2.3.2 Explanation Measure element within ActionStep element:": [
+    9,
+    10
+  ],
+  "2.3.3 Explanation Unload element within ActionStep element:": [
+    10,
+    10
+  ],
+  "2.3.4 Explanation Load element within ActionStep element:": [
+    10,
+    10
+  ],
+  "2.3.5 Response from BluVision to Discrete Access:": [
+    10,
+    12
+  ],
+  "2.4 Get actual time stamp of running scheduler": [
+    12,
+    12
+  ],
+  "3 Standard commands without schedule queue dependency": [
+    12,
+    12
+  ],
+  "3.1 Status Cuvette Array": [
+    12,
+    12
+  ],
+  "3.1.1 Get Status of Cuvette array from PC to BV": [
+    12,
+    12
+  ],
+  "3.1.2 Response status Cuvette array from BluVision to PC:": [
+    12,
+    14
+  ],
+  "3.1.3 Get Status of All Cuvette arrays from PC to BV": [
+    14,
+    15
+  ],
+  "3.2 Get Waste Bin Status": [
+    15,
+    16
+  ],
+  "4 Level detection of liquids before starting a run:": [
+    16,
+    17
+  ],
+  "5. FilterWheel": [
+    17,
+    17
+  ],
+  "5.1 loading filter wheel": [
+    17,
+    17
+  ],
+  "5.2 filter check by user": [
+    17,
+    18
+  ],
+  "6. Temperature control BluVision": [
+    18,
+    18
+  ],
+  "6.1 Set temperature parameters": [
+    18,
+    18
+  ],
+  "6.2 Get temperature parameters (setpoints)": [
+    18,
+    19
+  ],
+  "6.3 Get temperature values (actual values)": [
+    19,
+    20
+  ],
+  "8 Notification to LCD display of BluVision": [
+    20,
+    21
+  ],
+  "9 Set system time BluVision mainboard": [
+    21,
+    22
+  ],
+  "10 Pause and Resume Bluvision in running state including cover check": [
+    22,
+    23
+  ],
+  "11 Status check covers": [
+    23,
+    24
+  ],
+  "12 Update report window (append / remove errors to/ from list)": [
+    24,
+    26
+  ],
+  "13 Communication DLL Skalar (draft only, not released!!)": [
+    26,
+    28
+  ],
+  "13.1 Device discovery over Ethernet with SSDP protocol (uPNP) Draft Only not released!!!": [
+    28,
+    29
+  ],
+  "14 BluVision states": [
+    29,
+    31
+  ],
+  "16.0 Firmware implementation: Parallel measurement, load and unload while sample pickup.": [
+    31,
+    32
+  ],
+  "16.1 New functionality: parallel movement / measurement during run.": [
+    32,
+    33
+  ],
+  "": [
+    33,
+    33
+  ],
+  "16.3 Scheduler actions From Discrete Access (Software side)": [
+    33,
+    34
+  ],
+  "20 Obsolete commands ( not in use anymore since communication version 2.0):": [
+    34,
+    34
+  ],
+  "20.0 AddToQueue Commands": [
+    34,
+    34
+  ],
+  "20.1 Commands type=\"WashToSample\"": [
+    34,
+    35
+  ],
+  "20.2 Commands type=\"TakeSample\"": [
+    35,
+    35
+  ],
+  "20.3 Commands type=\"SampleToCuv\">": [
+    35,
+    36
+  ],
+  "20.4 Commands type=\"DispenseSample\"": [
+    36,
+    37
+  ],
+  "20.5 Commands type=\"MoveToWash\"": [
+    37,
+    37
+  ],
+  "20.6 Commands type=\"Rinse\"": [
+    37,
+    39
+  ],
+  "20.7 Commands type=\"CuvToSample\"": [
+    39,
+    40
+  ],
+  "2.8 Commands type=\"MeasureCel\"": [
+    40,
+    40
+  ],
+  "20.9 Commands type=\"LoadCuvette\"": [
+    40,
+    41
+  ],
+  "20.10 Commands type=\"UnloadCuvette\"": [
+    41,
+    41
+  ],
+  "20.11 Commands type=\"CheckCuvBlock\"": [
+    41,
+    42
+  ],
+  "20.12 SampleToSample (for dilutions)": [
+    42,
+    42
+  ],
+  "20.13 SampleMixing (for dilutions)": [
+    42,
+    43
+  ],
+  "Obsolete part 15.0 Duration times for generating faster schedule queues": [
+    43,
+    43
+  ],
+  "15.1 Get duration information from BV": [
+    43,
+    43
+  ],
+  "15.2 Response duration information from BV to DA": [
+    43,
+    45
+  ],
+  "21 Obsolete part: Recalculation of Schedule queue": [
+    45,
+    47
+  ],
+  "Revision History": [
+    47,
+    49
+  ],
+  "Update to paragraph 2.3.5 Response from BluVision to Discrete Access:": [
+    49,
+    49
+  ],
+  "Update to paragraph 2.3.* Response from BluVision to Discrete Access:": [
+    49,
+    49
+  ],
+  "scheduler.": [
+    49,
+    null
+  ]
+}

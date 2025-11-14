@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-page_query",
+      "2": "I-page_query",
+      "3": "L-page_query",
+      "4": "U-page_query",
+      "5": "B-pdf_name",
+      "6": "I-pdf_name",
+      "7": "L-pdf_name",
+      "8": "U-pdf_name",
+      "9": "B-topic",
+      "10": "I-topic",
+      "11": "L-topic",
+      "12": "U-topic",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-page_query": 1,
+      "I-page_query": 2,
+      "L-page_query": 3,
+      "U-page_query": 4,
+      "B-pdf_name": 5,
+      "I-pdf_name": 6,
+      "L-pdf_name": 7,
+      "U-pdf_name": 8,
+      "B-topic": 9,
+      "I-topic": 10,
+      "L-topic": 11,
+      "U-topic": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

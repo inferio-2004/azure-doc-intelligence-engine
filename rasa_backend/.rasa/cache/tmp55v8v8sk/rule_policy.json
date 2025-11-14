@@ -1,0 +1,22 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_page\"}}]": "action_search_by_topic_or_page",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_page\"}}, {\"prev_action\": {\"action_name\": \"action_search_by_topic_or_page\"}, \"user\": {\"intent\": \"search_by_page\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_topic\"}}]": "action_search_by_topic_or_page",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_topic\"}}, {\"prev_action\": {\"action_name\": \"action_search_by_topic_or_page\"}, \"user\": {\"intent\": \"search_by_topic\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_page\"}}, {\"prev_action\": {\"action_name\": \"action_search_by_topic_or_page\"}, \"user\": {\"intent\": \"search_by_page\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_topic\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_page\"}}]",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_by_topic\"}}, {\"prev_action\": {\"action_name\": \"action_search_by_topic_or_page\"}, \"user\": {\"intent\": \"search_by_topic\"}}]"
+    ]
+  }
+}

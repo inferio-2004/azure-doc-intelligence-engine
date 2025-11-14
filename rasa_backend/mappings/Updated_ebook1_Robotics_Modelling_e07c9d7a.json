@@ -1,0 +1,1042 @@
+{
+  "1 Introduction": [
+    1,
+    1
+  ],
+  "1.1 Robotics": [
+    1,
+    3
+  ],
+  "1.2 Robot Mechanical Structure": [
+    3,
+    4
+  ],
+  "1.2.1 Robot Manipulators": [
+    4,
+    10
+  ],
+  "1.2.2 Mobile Robots": [
+    10,
+    15
+  ],
+  "1.3 Industrial Robotics": [
+    15,
+    25
+  ],
+  "1.4 Advanced Robotics": [
+    25,
+    26
+  ],
+  "1.4.1 Field Robots": [
+    26,
+    27
+  ],
+  "1.4.2 Service Robots": [
+    27,
+    29
+  ],
+  "1.5 Robot Modelling, Planning and Control": [
+    29,
+    30
+  ],
+  "1.5.1 Modelling": [
+    30,
+    32
+  ],
+  "1.5.2 Planning": [
+    32,
+    32
+  ],
+  "1.5.3 Control": [
+    32,
+    33
+  ],
+  "Bibliography": [
+    608,
+    609
+  ],
+  "2 Kinematics": [
+    39,
+    39
+  ],
+  "2.1 Pose of a Rigid Body": [
+    39,
+    40
+  ],
+  "2.2 Rotation Matrix": [
+    40,
+    41
+  ],
+  "2.2.1 Elementary Rotations": [
+    41,
+    42
+  ],
+  "2.2.2 Representation of a Vector": [
+    42,
+    44
+  ],
+  "2.2.3 Rotation of a Vector": [
+    44,
+    45
+  ],
+  "2.3 Composition of Rotation Matrices": [
+    45,
+    48
+  ],
+  "2.4 Euler Angles": [
+    48,
+    49
+  ],
+  "2.4.1 ZYZ Angles": [
+    49,
+    51
+  ],
+  "2.4.2 RPY Angles": [
+    51,
+    52
+  ],
+  "2.5 Angle and Axis": [
+    52,
+    54
+  ],
+  "2.6 Unit Quaternion": [
+    54,
+    56
+  ],
+  "2.7 Homogeneous Transformations": [
+    56,
+    58
+  ],
+  "2.8 Direct Kinematics": [
+    58,
+    60
+  ],
+  "2.8.1 Open Chain": [
+    60,
+    61
+  ],
+  "2.8.2 Denavit–Hartenberg Convention": [
+    61,
+    65
+  ],
+  "2.8.3 Closed Chain": [
+    65,
+    68
+  ],
+  "2.9 Kinematics of Typical Manipulator Structures": [
+    68,
+    69
+  ],
+  "2.9.1 Three-link Planar Arm": [
+    69,
+    70
+  ],
+  "2.9.2 Parallelogram Arm": [
+    70,
+    72
+  ],
+  "2.9.3 Spherical Arm": [
+    72,
+    73
+  ],
+  "2.9.4 Anthropomorphic Arm": [
+    73,
+    75
+  ],
+  "2.9.5 Spherical Wrist": [
+    75,
+    76
+  ],
+  "2.9.6 Stanford Manipulator": [
+    76,
+    77
+  ],
+  "2.9.7 Anthropomorphic Arm with Spherical Wrist": [
+    77,
+    79
+  ],
+  "2.9.8 DLR Manipulator": [
+    79,
+    81
+  ],
+  "2.9.9 Humanoid Manipulator": [
+    81,
+    83
+  ],
+  "2.10 Joint Space and Operational Space": [
+    83,
+    85
+  ],
+  "2.10.1 Workspace": [
+    85,
+    87
+  ],
+  "2.10.2 Kinematic Redundancy": [
+    87,
+    88
+  ],
+  "2.11 Kinematic Calibration": [
+    88,
+    90
+  ],
+  "2.12 Inverse Kinematics Problem": [
+    90,
+    91
+  ],
+  "2.12.1 Solution of Three-link Planar Arm": [
+    91,
+    94
+  ],
+  "2.12.2 Solution of Manipulators with Spherical Wrist": [
+    94,
+    95
+  ],
+  "2.12.3 Solution of Spherical Arm": [
+    95,
+    96
+  ],
+  "2.12.4 Solution of Anthropomorphic Arm": [
+    96,
+    99
+  ],
+  "2.12.5 Solution of Spherical Wrist": [
+    99,
+    100
+  ],
+  "Problems": [
+    557,
+    563
+  ],
+  "3 Differential Kinematics and Statics": [
+    105,
+    105
+  ],
+  "3.1 Geometric Jacobian": [
+    105,
+    106
+  ],
+  "3.1.1 Derivative of a Rotation Matrix": [
+    106,
+    108
+  ],
+  "3.1.2 Link Velocities": [
+    108,
+    111
+  ],
+  "3.1.3 Jacobian Computation": [
+    111,
+    113
+  ],
+  "3.2 Jacobian of Typical Manipulator Structures": [
+    113,
+    113
+  ],
+  "3.2.1 Three-link Planar Arm": [
+    113,
+    114
+  ],
+  "3.2.2 Anthropomorphic Arm": [
+    114,
+    115
+  ],
+  "3.2.3 Stanford Manipulator": [
+    115,
+    116
+  ],
+  "3.3 Kinematic Singularities": [
+    116,
+    117
+  ],
+  "3.3.1 Singularity Decoupling": [
+    117,
+    119
+  ],
+  "3.3.2 Wrist Singularities": [
+    119,
+    119
+  ],
+  "3.3.3 Arm Singularities": [
+    119,
+    121
+  ],
+  "3.4 Analysis of Redundancy": [
+    121,
+    123
+  ],
+  "3.5 Inverse Differential Kinematics": [
+    123,
+    124
+  ],
+  "3.5.1 Redundant Manipulators": [
+    124,
+    127
+  ],
+  "3.5.2 Kinematic Singularities": [
+    127,
+    128
+  ],
+  "3.6 Analytical Jacobian": [
+    128,
+    132
+  ],
+  "3.7 Inverse Kinematics Algorithms": [
+    132,
+    133
+  ],
+  "3.7.1 Jacobian (Pseudo-)inverse": [
+    133,
+    134
+  ],
+  "3.7.2 Jacobian Transpose": [
+    134,
+    137
+  ],
+  "3.7.3 Orientation Error": [
+    137,
+    141
+  ],
+  "3.7.4 Second-order Algorithms": [
+    141,
+    143
+  ],
+  "3.7.5 Comparison Among Inverse Kinematics Algorithms": [
+    143,
+    147
+  ],
+  "3.8 Statics": [
+    147,
+    148
+  ],
+  "3.8.1 Kineto-Statics Duality": [
+    148,
+    149
+  ],
+  "3.8.2 Velocity and Force Transformation": [
+    149,
+    151
+  ],
+  "3.8.3 Closed Chain": [
+    151,
+    152
+  ],
+  "3.9 Manipulability Ellipsoids": [
+    152,
+    158
+  ],
+  "4 Trajectory Planning": [
+    161,
+    161
+  ],
+  "4.1 Path and Trajectory": [
+    161,
+    162
+  ],
+  "4.2 Joint Space Trajectories": [
+    162,
+    163
+  ],
+  "4.2.1 Point-to-Point Motion": [
+    163,
+    168
+  ],
+  "4.2.2 Motion Through a Sequence of Points": [
+    168,
+    179
+  ],
+  "4.3 Operational Space Trajectories": [
+    179,
+    181
+  ],
+  "4.3.1 Path Primitives": [
+    181,
+    184
+  ],
+  "4.3.2 Position": [
+    184,
+    187
+  ],
+  "4.3.3 Orientation": [
+    187,
+    188
+  ],
+  "5 Actuators and Sensors": [
+    191,
+    191
+  ],
+  "5.1 Joint Actuating System": [
+    191,
+    192
+  ],
+  "5.1.1 Transmissions": [
+    192,
+    193
+  ],
+  "5.1.2 Servomotors": [
+    193,
+    197
+  ],
+  "5.1.3 Power Amplifiers": [
+    197,
+    198
+  ],
+  "5.1.4 Power Supply": [
+    198,
+    198
+  ],
+  "5.2 Drives": [
+    198,
+    198
+  ],
+  "5.2.1 Electric Drives": [
+    198,
+    202
+  ],
+  "5.2.2 Hydraulic Drives": [
+    202,
+    204
+  ],
+  "5.2.3 Transmission Effects": [
+    204,
+    206
+  ],
+  "5.2.4 Position Control": [
+    206,
+    209
+  ],
+  "5.3 Proprioceptive Sensors": [
+    209,
+    210
+  ],
+  "5.3.1 Position Transducers": [
+    210,
+    214
+  ],
+  "5.3.2 Velocity Transducers": [
+    214,
+    215
+  ],
+  "5.4 Exteroceptive Sensors": [
+    215,
+    215
+  ],
+  "5.4.1 Force Sensors": [
+    215,
+    219
+  ],
+  "5.4.2 Range Sensors": [
+    219,
+    225
+  ],
+  "5.4.3 Vision Sensors": [
+    225,
+    230
+  ],
+  "6 Control Architecture": [
+    233,
+    233
+  ],
+  "6.1 Functional Architecture": [
+    233,
+    238
+  ],
+  "6.2 Programming Environment": [
+    238,
+    240
+  ],
+  "6.2.1 Teaching-by-Showing": [
+    240,
+    241
+  ],
+  "6.2.2 Robot-oriented Programming": [
+    241,
+    242
+  ],
+  "6.3 Hardware Architecture": [
+    242,
+    245
+  ],
+  "7 Dynamics": [
+    247,
+    247
+  ],
+  "7.1 Lagrange Formulation": [
+    247,
+    249
+  ],
+  "7.1.1 Computation of Kinetic Energy": [
+    249,
+    255
+  ],
+  "7.1.2 Computation of Potential Energy": [
+    255,
+    255
+  ],
+  "7.1.3 Equations of Motion": [
+    255,
+    257
+  ],
+  "7.2 Notable Properties of Dynamic Model": [
+    257,
+    257
+  ],
+  "7.2.1 Skew-symmetry of Matrix B˙ −2C": [
+    257,
+    259
+  ],
+  "7.2.2 Linearity in the Dynamic Parameters": [
+    259,
+    264
+  ],
+  "7.3 Dynamic Model of Simple Manipulator Structures": [
+    264,
+    264
+  ],
+  "7.3.1 Two-link Cartesian Arm": [
+    264,
+    265
+  ],
+  "7.3.2 Two-link Planar Arm": [
+    265,
+    277
+  ],
+  "7.3.3 Parallelogram Arm": [
+    277,
+    280
+  ],
+  "7.4 Dynamic Parameter Identification": [
+    280,
+    282
+  ],
+  "7.5 Newton–Euler Formulation": [
+    282,
+    285
+  ],
+  "7.5.1 Link Accelerations": [
+    285,
+    286
+  ],
+  "7.5.2 Recursive Algorithm": [
+    286,
+    289
+  ],
+  "7.5.3 Example": [
+    289,
+    292
+  ],
+  "7.6 Direct Dynamics and Inverse Dynamics": [
+    292,
+    294
+  ],
+  "7.7 Dynamic Scaling of Trajectories": [
+    294,
+    296
+  ],
+  "7.8 Operational Space Dynamic Model": [
+    296,
+    299
+  ],
+  "7.9 Dynamic Manipulability Ellipsoid": [
+    299,
+    301
+  ],
+  "8 Motion Control": [
+    303,
+    303
+  ],
+  "8.1 The Control Problem": [
+    303,
+    305
+  ],
+  "8.2 Joint Space Control": [
+    305,
+    309
+  ],
+  "8.3 Decentralized Control": [
+    309,
+    311
+  ],
+  "8.3.1 Independent Joint Control": [
+    311,
+    319
+  ],
+  "8.3.2 Decentralized Feedforward Compensation": [
+    319,
+    324
+  ],
+  "8.4 Computed Torque Feedforward Control": [
+    324,
+    327
+  ],
+  "8.5 Centralized Control": [
+    327,
+    328
+  ],
+  "8.5.1 PD Control with Gravity Compensation": [
+    328,
+    330
+  ],
+  "8.5.2 Inverse Dynamics Control": [
+    330,
+    333
+  ],
+  "8.5.3 Robust Control": [
+    333,
+    338
+  ],
+  "8.5.4 Adaptive Control": [
+    338,
+    343
+  ],
+  "8.6 Operational Space Control": [
+    343,
+    344
+  ],
+  "8.6.1 General Schemes": [
+    344,
+    345
+  ],
+  "8.6.2 PD Control with Gravity Compensation": [
+    345,
+    347
+  ],
+  "8.6.3 Inverse Dynamics Control": [
+    347,
+    349
+  ],
+  "8.7 Comparison Among Various Control Schemes": [
+    349,
+    359
+  ],
+  "9 Force Control": [
+    363,
+    363
+  ],
+  "9.1 Manipulator Interaction with Environment": [
+    363,
+    364
+  ],
+  "9.2 Compliance Control": [
+    364,
+    366
+  ],
+  "9.2.1 Passive Compliance": [
+    366,
+    367
+  ],
+  "9.2.2 Active Compliance": [
+    367,
+    372
+  ],
+  "9.3 Impedance Control": [
+    372,
+    378
+  ],
+  "9.4 Force Control": [
+    378,
+    379
+  ],
+  "9.4.1 Force Control with Inner Position Loop": [
+    379,
+    380
+  ],
+  "9.4.2 Force Control with Inner Velocity Loop": [
+    380,
+    381
+  ],
+  "9.4.3 Parallel Force/Position Control": [
+    381,
+    384
+  ],
+  "9.5 Constrained Motion": [
+    384,
+    385
+  ],
+  "9.5.1 Rigid Environment": [
+    385,
+    389
+  ],
+  "9.5.2 Compliant Environment": [
+    389,
+    391
+  ],
+  "9.6 Natural and Artificial Constraints": [
+    391,
+    392
+  ],
+  "9.6.1 Analysis of Tasks": [
+    392,
+    396
+  ],
+  "9.7 Hybrid Force/Motion Control": [
+    396,
+    397
+  ],
+  "9.7.1 Compliant Environment": [
+    397,
+    401
+  ],
+  "9.7.2 Rigid Environment": [
+    401,
+    403
+  ],
+  "10 Visual Servoing": [
+    407,
+    407
+  ],
+  "10.1 Vision for Control": [
+    407,
+    409
+  ],
+  "10.1.1 Configuration of the Visual System": [
+    409,
+    410
+  ],
+  "10.2 Image Processing": [
+    410,
+    411
+  ],
+  "10.2.1 Image Segmentation": [
+    411,
+    416
+  ],
+  "10.2.2 Image Interpretation": [
+    416,
+    418
+  ],
+  "10.3 Pose Estimation": [
+    418,
+    419
+  ],
+  "10.3.1 Analytic Solution": [
+    419,
+    424
+  ],
+  "10.3.2 Interaction Matrix": [
+    424,
+    427
+  ],
+  "10.3.3 Algorithmic Solution": [
+    427,
+    433
+  ],
+  "10.4 Stereo Vision": [
+    433,
+    433
+  ],
+  "10.4.1 Epipolar Geometry": [
+    433,
+    435
+  ],
+  "10.4.2 Triangulation": [
+    435,
+    436
+  ],
+  "10.4.3 Absolute Orientation": [
+    436,
+    438
+  ],
+  "10.4.4 3D Reconstruction from Planar Homography": [
+    438,
+    440
+  ],
+  "10.5 Camera Calibration": [
+    440,
+    443
+  ],
+  "10.6 The Visual Servoing Problem": [
+    443,
+    445
+  ],
+  "10.7 Position-based Visual Servoing": [
+    445,
+    446
+  ],
+  "10.7.1 PD Control with Gravity Compensation": [
+    446,
+    447
+  ],
+  "10.7.2 Resolved-velocity Control": [
+    447,
+    449
+  ],
+  "10.8 Image-based Visual Servoing": [
+    449,
+    449
+  ],
+  "10.8.1 PD Control with Gravity Compensation": [
+    449,
+    451
+  ],
+  "10.8.2 Resolved-velocity Control": [
+    451,
+    453
+  ],
+  "10.9 Comparison Among Various Control Schemes": [
+    453,
+    460
+  ],
+  "10.10 Hybrid Visual Servoing": [
+    460,
+    465
+  ],
+  "11 Mobile Robots": [
+    469,
+    469
+  ],
+  "11.1 Nonholonomic Constraints": [
+    469,
+    473
+  ],
+  "11.1.1 Integrability Conditions": [
+    473,
+    476
+  ],
+  "11.2 Kinematic Model": [
+    476,
+    478
+  ],
+  "11.2.1 Unicycle": [
+    478,
+    479
+  ],
+  "11.2.2 Bicycle": [
+    479,
+    482
+  ],
+  "11.3 Chained Form": [
+    482,
+    485
+  ],
+  "11.4 Dynamic Model": [
+    485,
+    489
+  ],
+  "11.5 Planning": [
+    489,
+    489
+  ],
+  "11.5.1 Path and Timing Law": [
+    489,
+    491
+  ],
+  "11.5.2 Flat Outputs": [
+    491,
+    492
+  ],
+  "11.5.3 Path Planning": [
+    492,
+    498
+  ],
+  "11.5.4 Trajectory Planning": [
+    498,
+    499
+  ],
+  "11.5.5 Optimal Trajectories": [
+    499,
+    502
+  ],
+  "11.6 Motion Control": [
+    502,
+    503
+  ],
+  "11.6.1 Trajectory Tracking": [
+    503,
+    510
+  ],
+  "11.6.2 Regulation": [
+    510,
+    514
+  ],
+  "11.7 Odometric Localization": [
+    514,
+    518
+  ],
+  "12 Motion Planning": [
+    523,
+    523
+  ],
+  "12.1 The Canonical Problem": [
+    523,
+    525
+  ],
+  "12.2 Configuration Space": [
+    525,
+    527
+  ],
+  "12.2.1 Distance": [
+    527,
+    527
+  ],
+  "12.2.2 Obstacles": [
+    527,
+    528
+  ],
+  "12.2.3 Examples of Obstacles": [
+    528,
+    532
+  ],
+  "12.3 Planning via Retraction": [
+    532,
+    536
+  ],
+  "12.4 Planning via Cell Decomposition": [
+    536,
+    536
+  ],
+  "12.4.1 Exact Decomposition": [
+    536,
+    539
+  ],
+  "12.4.2 Approximate Decomposition": [
+    539,
+    541
+  ],
+  "12.5 Probabilistic Planning": [
+    541,
+    541
+  ],
+  "12.5.1 PRM Method": [
+    541,
+    543
+  ],
+  "12.5.2 Bidirectional RRT Method": [
+    543,
+    546
+  ],
+  "12.6 Planning via Artificial Potentials": [
+    546,
+    546
+  ],
+  "12.6.1 Attractive Potential": [
+    546,
+    547
+  ],
+  "12.6.2 Repulsive Potential": [
+    547,
+    549
+  ],
+  "12.6.3 Total Potential": [
+    549,
+    550
+  ],
+  "12.6.4 Planning Techniques": [
+    550,
+    551
+  ],
+  "12.6.5 The Local Minima Problem": [
+    551,
+    554
+  ],
+  "12.7 The Robot Manipulator Case": [
+    554,
+    557
+  ],
+  "A Linear Algebra": [
+    563,
+    563
+  ],
+  "A.1 Definitions": [
+    563,
+    565
+  ],
+  "A.2 Matrix Operations": [
+    565,
+    569
+  ],
+  "A.3 Vector Operations": [
+    569,
+    572
+  ],
+  "A.4 Linear Transformation": [
+    572,
+    573
+  ],
+  "A.5 Eigenvalues and Eigenvectors": [
+    573,
+    574
+  ],
+  "A.6 Bilinear Forms and Quadratic Forms": [
+    574,
+    575
+  ],
+  "A.7 Pseudo-inverse": [
+    575,
+    577
+  ],
+  "A.8 Singular Value Decomposition": [
+    577,
+    578
+  ],
+  "B Rigid-body Mechanics": [
+    579,
+    579
+  ],
+  "B.1 Kinematics": [
+    579,
+    581
+  ],
+  "B.2 Dynamics": [
+    581,
+    584
+  ],
+  "B.3 Work and Energy": [
+    584,
+    585
+  ],
+  "B.4 Constrained Systems": [
+    585,
+    588
+  ],
+  "C Feedback Control": [
+    589,
+    589
+  ],
+  "C.1 Control of Single-input/Single-output Linear Systems": [
+    589,
+    594
+  ],
+  "C.2 Control of Nonlinear Mechanical Systems": [
+    594,
+    596
+  ],
+  "C.3 Lyapunov Direct Method": [
+    596,
+    598
+  ],
+  "D Differential Geometry": [
+    599,
+    599
+  ],
+  "D.1 Vector Fields and Lie Brackets": [
+    599,
+    603
+  ],
+  "D.2 Nonlinear Controllability": [
+    603,
+    604
+  ],
+  "E Graph Search Algorithms": [
+    605,
+    605
+  ],
+  "E.1 Complexity": [
+    605,
+    606
+  ],
+  "E.2 Breadth-first and Depth-first Search": [
+    606,
+    607
+  ],
+  "E.3 A(cid:2) Algorithm": [
+    607,
+    608
+  ],
+  "References": [
+    609,
+    623
+  ],
+  "Index": [
+    623,
+    null
+  ]
+}

@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: search_by_topic
+  examples: |
+    - show me content on [Set temperature parameters](topic)
+    - show me content on [loading filter wheel](topic)
+    - show me content on [Get actual time stamp of running scheduler](topic)
+    - show me content on [5.2 filter check by user](topic)
+
+- intent: search_by_page
+  examples: |
+    - show me page [22](page_query)
+    - show me page [21,23](page_query)
+    - show me page [5-7](page_query) 
+
+- intent: choose_pdf
+  examples: |
+    - I want to analyze [JD- Internship+ FTE _ SDE FY26 (1).pdf](pdf_name)
+    - Open [Resume (Final) - Aniruth.pdf](pdf_name)
+    - Switch to [2025_06_updated_analysis+(v3)_.pdf](pdf_name)
+    - Extract from [Report_Internship_(PhonePe)-Final.pdf](pdf_name)
+    - Use [some_data-file_(edited).pdf](pdf_name)
+    - I want to analyze [sample com.pdf](pdf_name)
+    - Please use [manual_2023.pdf](pdf_name)
+    - Use [guide.pdf](pdf_name) for now
+    - Please switch to [Updated ebook1 Robotics Modelling.pdf](pdf_name)
+    - Parse [Notes - Chap 4 - temp+pressure (draft).pdf](pdf_name)
+    - I want to analyze [JD- Internship+ FTE _ SDE FY26 (1).pdf](pdf_name)
+    - I want to analyze [sample com.pdf](pdf_name)
+    - Please use [manual_2023.pdf](pdf_name)
+    - Extract from [bluvision doc.pdf](pdf_name)
+    - Use [guide.pdf](pdf_name) for now
+    - I want to analyze [Updated ebook1 Robotics Modelling.pdf](pdf_name)
+    - Please switch to [Updated ebook1 Robotics Modelling.pdf](pdf_name)

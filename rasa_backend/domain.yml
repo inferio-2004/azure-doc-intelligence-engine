@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - choose_pdf
+  - search_by_topic
+  - search_by_page
+  - ask_section
+
+entities:
+  - topic
+  - page_query
+  - pdf_name
+
+slots:
+  topic:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: topic
+
+  page_query:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: page_query
+  pdf_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: pdf_name
+responses:
+  utter_ask_topic:
+    - text: "Which topic would you like to view?"
+
+  utter_ask_page_query:
+    - text: "Which page would you like to view?"
+  utter_pdf_selected:
+    - text: "Got it. I'll use {pdf_name} for your queries."
+
+actions:
+  - action_search_by_topic_or_page
+  

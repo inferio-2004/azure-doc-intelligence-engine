@@ -1,0 +1,28 @@
+language: en
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: RegexEntityExtractor
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 100
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+  - name: FallbackClassifier
+    threshold: 0.3
+
+# This tells the RegexEntityExtractor what patterns to look for:
+regex:
+  - name: page_query
+    pattern: "[0-9]+(?:-[0-9]+)?(?:,[0-9]+(?:-[0-9]+)?)*"
+
+  - name: pdf_name
+    pattern: "[A-Za-z0-9_\\-+.,()\\[\\]\\s]+\\.pdf"
+
+
+
+policies:
+- name: RulePolicy
+assistant_id: 20250607-120612-great-delta
